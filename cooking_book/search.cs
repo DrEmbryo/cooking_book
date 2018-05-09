@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -30,6 +32,26 @@ namespace cooking_book
             }
         }
 
+        private void search_by_ingridient(object sender, EventArgs e)
+        {
+            foreach (var i in filelist)
+            {
+                string path = "files\\" + i + ".rtf";
+
+                string[] lines = File.ReadAllLines(path);
+
+                for (int j = 0; j < lines.Length; j++)
+                {
+                    ltb_serch_result.Items.Add(lines[j]);
+                    if (lines[j] == tb_search.Text)
+                    {
+                        ltb_serch_result.Items.Add(i);
+                    }
+                }
+
+            }
+        }
+
         private void sort_choise(object sender, EventArgs e)
         {
             ltb_serch_result.Items.Clear();
@@ -40,10 +62,25 @@ namespace cooking_book
             }
             else if (rbtn_ingridient.Checked)
             {
-                // search by ingridient method
+                search_by_ingridient(sender, e);
             }
         }
 
+        private void sent_to_show_data(object sender, EventArgs e)
+        {
+            int selected_file_index = ltb_serch_result.SelectedIndex;
+                string selected_file = "files\\" + ltb_serch_result.SelectedItem.ToString() + ".rtf";
+                Show_data form = new Show_data(selected_file);
+                form.Disposed += new EventHandler(childIsClosed);
+                this.Hide();
+                form.ShowDialog();
+ 
+        }
+
+        private void childIsClosed(object sender, EventArgs e)
+        {
+            this.Show();
+        }
 
         private void lb_back_Click(object sender, EventArgs e)
         {

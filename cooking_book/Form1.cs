@@ -60,7 +60,7 @@ namespace cooking_book
             {
                 split_string = allfiles[i];
                 splited = split_string.Split('/');
-                splited = splited[splited.Length - 1].Split(new char[] { '.', '\\' });
+                splited = splited[splited.Length - 1].Split(new char[] { '.', '\\' }); 
                 files.Add(splited[1]);
             }
         }

@@ -53,12 +53,13 @@ namespace cooking_book
         private void sent_to_show_data(object sender, EventArgs e)
         {
             int selected_file_index = lbs_show_all.SelectedIndex;
-            string[] allfiles = Directory.GetFiles("files", "*.rtf", SearchOption.AllDirectories);
-            string selected_file = allfiles[selected_file_index];
-            Show_data form = new Show_data(selected_file);
-            form.Disposed += new EventHandler(childIsClosed);
-            this.Hide();
-            form.ShowDialog();
+                string[] allfiles = Directory.GetFiles("files", "*.rtf", SearchOption.AllDirectories);
+                string selected_file = allfiles[selected_file_index];
+                Show_data form = new Show_data(selected_file);
+                form.Disposed += new EventHandler(childIsClosed);
+                this.Hide();
+                form.ShowDialog();
+
         }
 
         private void childIsClosed(object sender, EventArgs e) {

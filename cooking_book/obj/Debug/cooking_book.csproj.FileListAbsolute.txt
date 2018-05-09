@@ -35,3 +35,15 @@ C:\Users\MinskLeo\Source\Repos\wf_cooking_book\cooking_book\obj\Debug\cooking_bo
 C:\Users\MinskLeo\Source\Repos\wf_cooking_book\cooking_book\obj\Debug\cooking_book.exe
 C:\Users\MinskLeo\Source\Repos\wf_cooking_book\cooking_book\obj\Debug\cooking_book.pdb
 C:\Users\MinskLeo\Source\Repos\wf_cooking_book\cooking_book\obj\Debug\cooking_book.csprojResolveAssemblyReference.cache
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\bin\Debug\cooking_book.exe.config
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\bin\Debug\cooking_book.exe
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\bin\Debug\cooking_book.pdb
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.csprojResolveAssemblyReference.cache
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.All.resources
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.Main_menu.resources
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.Properties.Resources.resources
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.Search.resources
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.Show_data.resources
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.csproj.GenerateResource.Cache
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.exe
+C:\Users\pavel\Desktop\projects\programs\wf_cooking_book\cooking_book\cooking_book\obj\Debug\cooking_book.pdb

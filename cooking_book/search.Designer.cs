@@ -38,6 +38,7 @@
             this.lb_back = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tb_search = new System.Windows.Forms.TextBox();
+            this.lb_details = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // rbtn_name
@@ -66,9 +67,9 @@
             this.ltb_serch_result.Font = new System.Drawing.Font("Monotype Corsiva", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ltb_serch_result.FormattingEnabled = true;
             this.ltb_serch_result.ItemHeight = 39;
-            this.ltb_serch_result.Location = new System.Drawing.Point(26, 247);
+            this.ltb_serch_result.Location = new System.Drawing.Point(26, 240);
             this.ltb_serch_result.Name = "ltb_serch_result";
-            this.ltb_serch_result.Size = new System.Drawing.Size(556, 394);
+            this.ltb_serch_result.Size = new System.Drawing.Size(556, 355);
             this.ltb_serch_result.TabIndex = 8;
             // 
             // label1
@@ -140,6 +141,20 @@
             this.tb_search.Size = new System.Drawing.Size(556, 36);
             this.tb_search.TabIndex = 7;
             // 
+            // lb_details
+            // 
+            this.lb_details.AutoSize = true;
+            this.lb_details.BackColor = System.Drawing.Color.Transparent;
+            this.lb_details.Font = new System.Drawing.Font("Monotype Corsiva", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lb_details.Location = new System.Drawing.Point(229, 597);
+            this.lb_details.Name = "lb_details";
+            this.lb_details.Size = new System.Drawing.Size(177, 49);
+            this.lb_details.TabIndex = 12;
+            this.lb_details.Text = "Подробнее";
+            this.lb_details.Click += new System.EventHandler(this.sent_to_show_data);
+            this.lb_details.MouseLeave += new System.EventHandler(this.mouse_off_item);
+            this.lb_details.MouseHover += new System.EventHandler(this.mouse_on_item);
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -147,6 +162,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(608, 720);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.lb_details);
             this.Controls.Add(this.lb_back);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -174,5 +190,6 @@
         private System.Windows.Forms.Label lb_back;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tb_search;
+        private System.Windows.Forms.Label lb_details;
     }
 }
