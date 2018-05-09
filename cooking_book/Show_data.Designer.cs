@@ -67,6 +67,7 @@
             this.Controls.Add(this.rtb_show_data);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Show_data";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Show_data";
             this.ResumeLayout(false);
             this.PerformLayout();
